@@ -1,0 +1,32 @@
+#content {
+    margin-left: 280px;
+    margin-top: 50px;
+}
+
+Table {
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    text-align: center;
+}
+
+.marginBottom {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #009bcf !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #009bcf !important;
+    text-decoration: none;
+}
+
+.alertDiv {
+    position: absolute;
+    z-index: 999;
+    top: 100px;
+    right: 15px;
+}

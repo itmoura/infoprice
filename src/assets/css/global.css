@@ -1,0 +1,114 @@
+body {
+    background-color: #dfddc5;
+    height: 100%;
+    width: 100%;
+}
+
+.topo-header {
+    background-color: #dfddc5;
+    height: 60px;
+    width: calc(100% - 280px);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.menu-lateral {
+    height: 100vh;
+    position: fixed;
+    width: 280px;
+    background-color: #009bcf;
+    margin-top: -60px;
+}
+
+.logo {
+    height: 60px;
+    width: 100%;
+    background-color: #009bcf;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.itens-menu {
+    color: #ffffff;
+    margin-top: 24px;
+}
+
+.itens-menu ul {
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.itens-menu ul li {
+    list-style: none;
+    height: 36px;
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+.itens-menu ul li:hover {
+    background-color: #022531;
+    border-radius: 8px;
+}
+
+.itens-menu ul li svg {
+    margin-right: 16px;
+    float: left;
+    color: #ffffff;
+}
+
+.itens-menu ul li p {
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    float: left;
+    margin-top: 18px;
+}
+
+.itens-menu ul li .arrowRight {
+    right: 20px;
+    position: absolute;
+}
+
+.drop-config {
+    margin-left: 10px;
+    margin-top: 15px;
+    transition: 1s;
+    width: 100%;
+}
+
+.drop-config li {
+    width: 100%;
+    margin-bottom: 10px !important;
+}
+
+.drop-config-none {
+    display: none;
+    transition: .5s;
+    margin-top: -50px;
+}
+
+.arrow-block {
+    display: block;
+}
+
+.arrow-none {
+    display: none;
+}
+
+.version {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
