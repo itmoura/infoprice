@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { useHistory } from 'react-router-dom';
 
+import InputMask from 'react-input-mask';
+
 import { Container, Form, Button } from 'react-bootstrap';
 
 import Menu from '../Menu';
@@ -98,7 +100,10 @@ class User extends Component {
 
                             <Form.Group controlId="formBasicCpf">
                                 <Form.Label>CPF</Form.Label>
-                                <Form.Control type="text" placeholder="CPF" name="cpf" value={this.state.cpf} onChange={this.handleChange} />
+                                <InputMask class="form-control" name="cpf" {...this.props} mask="999.999.999-99" value={this.state.cpf} onChange={this.handleChange} >
+
+                                </InputMask>
+                                {/* <Form.Control type="text" placeholder="CPF" name="cpf" value={this.state.cpf} onChange={this.handleChange} /> */}
                             </Form.Group>
 
                             <Button variant="primary" type="submit" >
